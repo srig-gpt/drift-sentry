@@ -1,0 +1,13 @@
+2026-07-16 23:45:49,905 INFO drift-sentry: 14-day replay, reference window = days 1-5, label lag = 48h
+2026-07-16 23:45:50,031 INFO trace built: 336 hours, 1261257 transactions, availability min=99.983% (never pages)
+2026-07-16 23:45:50,047 INFO operating point: flag score>=0.444; reference precision=0.44 -> quality SLO=0.34
+2026-07-16 23:45:50,186 INFO PSI monitor [amount]: alerts at none
+2026-07-16 23:45:50,187 INFO PSI monitor [device_age]: alerts at ['day 12.1 (h290)']
+2026-07-16 23:45:50,187 INFO PSI monitor [country]: alerts at ['day 6.1 (h146)']
+2026-07-16 23:45:50,188 INFO PSI monitor [score]: alerts at ['day 12.1 (h290)']
+2026-07-16 23:45:50,188 INFO quality SLO monitor: alerts at ['day 11.7 (h280)']
+2026-07-16 23:45:50,188 INFO EVENT data_drift    detected by PSI:country   after   2h 
+2026-07-16 23:45:50,188 INFO EVENT concept_drift detected by quality-SLO   after  64h 
+2026-07-16 23:45:50,189 INFO EVENT pipeline_bug  detected by PSI:device_age after   2h  (+1 more)
+2026-07-16 23:45:50,499 INFO wrote evidence/report.md, quality_vs_uptime.png, psi_monitors.png
+2026-07-16 23:45:50,500 INFO done
